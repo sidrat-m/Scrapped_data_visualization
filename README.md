@@ -37,7 +37,7 @@ project-root/
 
 │ └── candidate2/
 
-│   └── post1.json
+│ │ ├── post1.json
 
 │
 
