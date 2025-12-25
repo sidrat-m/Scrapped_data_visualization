@@ -24,16 +24,27 @@ A Dash-based interactive dashboard to visualize social media posts and comments,
 
 ## Project Structure
 project-root/
+
 │
+
 ├── ScrappedData/ # Contains candidate subfolders with JSON files
+
 │ ├── candidate1/
+
 │ │ ├── post1.json
+
 │ │ ├── post2.json
+
 │ └── candidate2/
+
 │   └── post1.json
+
 │
+
 ├── social_insights_dashboard.py # Main Dash application
+
 ├── README.md
+
 └── requirements.txt
 ## Installation
 
@@ -45,7 +56,7 @@ python -m venv venv
 source venv/bin/activate  # Linux/macOS
 venv\Scripts\activate     # Windows
 
-**Install dependencies:**
+Install dependencies:
 
 pip install -r requirements.txt
 
