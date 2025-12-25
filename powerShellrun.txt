@@ -1,0 +1,6 @@
+cd "F:\Q&P\ScrappedData"
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+python social_insights_dashboard.py
+.venv\Scripts\python -m pip install --upgrade pip
+.venv\Scripts\python -m pip install -r requirements.txt
